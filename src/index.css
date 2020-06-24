@@ -1,0 +1,50 @@
+body {
+  /* border-width: 2px;
+  border: solid green;
+  margin: 15px;
+  padding: 0px 15px; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+label{
+  font-size: 16px;
+}
+
+*{
+  font-family: Verdana;
+}
+
+/*Chrome, Safari, etc removal of arrows on input field*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+/*Firefox removal of arrows on input field*/
+input[type='number'] {
+  -moz-appearance:textfield;
+}
+
+input {
+  width: 75px;
+}
+
+button {
+  margin-bottom: 15px;
+}
+

@@ -1,0 +1,54 @@
+#wrapper {
+    position: relative;
+    width: 520px;
+    background-image: linear-gradient(rgb(109, 0, 199), rgba(130, 34, 207, 0.575));
+    border: 5px solid rgb(91, 5, 161);
+    /* border: 10px, solid, purple; */
+    border-radius: 3%;
+    padding-bottom: 10px;
+    opacity: 80%;
+    animation-name: render;
+    animation-duration: 18s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+    
+}
+
+@keyframes render {
+    0%{left: 520px; opacity: 0}
+    5%{left: 0px; opacity: 1}
+    80%{left: 0px; opacity: 1}
+    95%{left: 0px; opacity: 0.9}
+    100%{left: 520px; opacity: 0; display: none;}
+}
+
+#title {
+    text-align: center;
+    font-size: 27px;
+    text-decoration: underline;
+    padding-bottom: 15px;
+}
+
+#list {
+    text-align: right;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+.item:nth-child(odd) {
+    font-weight: bolder;
+}
+
+.item:nth-child(even) {
+    font-weight: lighter;
+}
+
+#title, #list {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.item {
+    padding-bottom: 12px;
+    font-size: 24px;
+}
