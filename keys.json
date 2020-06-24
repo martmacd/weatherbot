@@ -1,0 +1,5 @@
+{
+    "botOauth" : "twitch bot channel oAuth goes here",
+    "weatherApi" : "openweather api key goers here",
+    "geoApi" : "opencagedata key goes here"
+}
